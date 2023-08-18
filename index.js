@@ -11,8 +11,8 @@ if (age < 18) {
 const movies = ["Inception", "Intestellar", "Batman", "Barbie"];
 movies.push("Spiderman", "Star Wars");
 movies.unshift("Godfather", "Scarface");
-movies.shift(0);
-movies.pop(7);
+movies.shift();
+movies.pop();
 console.log(movies);
 
 let student = {
